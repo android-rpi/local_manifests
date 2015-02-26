@@ -5,16 +5,9 @@
  $ git clone https://github.com/peyo-hd/local_manifests
  $ repo sync
  
-# Build Kernel
- $ cd kernel/common
- $ ARCH=x86_64 scripts/kconfig/merge_config.sh arch/x86/configs/x86_64_defconfig android/configs/android-base.cfg android/configs/android-recommended.cfg
- $ make bzImage
- 
-# Build Android source
- Continue build with http://source.android.com/source/building-running.html
- $ source build/envsetup.sh
- $ lunch ibox-eng
- $ make
-
-# Install to Intel box
+# Build for Intel box
  See https://github.com/peyo-hd/device_x86_ibox
+
+# Build for RaspberryPi 2
+ See https://github.com/peyo-hd/device_brcm_rpi2
+
