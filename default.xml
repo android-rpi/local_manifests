@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="fdo" fetch="http://anongit.freedesktop.org/git" />
+  <project path="external/drm" name="mesa/drm" revision="master" remote="fdo"/>
+
+  <remote name="github" fetch="http://github.com"/>
+  <project path="kernel/common" name="peyo-hd/kernel_common" revision="android-3.14-ibox" remote="github"/>
+  <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
+  <remove-project name="platform/external/mesa3d"/>
+  <project path="external/mesa3d" name="peyo-hd/external_mesa3d" revision="ibox" remote="github"/>
+  <project path="hardware/drm_gralloc" name="peyo-hd/hardware_drm_gralloc" revision="master" remote="github"/>
+  <project path="hardware/intel/hwcomposer" name="peyo-hd/hardware_intel_hwcomposer" revision="master" remote="github"/>
+  <project path="device/x86/ibox" name="peyo-hd/device_x86_ibox" revision="master" remote="github"/>
+
+  <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/lge/mako-kernel" />
+  <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/htc/flounder-kernel" />
+</manifest>
