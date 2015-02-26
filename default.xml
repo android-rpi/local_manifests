@@ -7,12 +7,16 @@
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
 
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
-  <project path="kernel/common" name="kernel_common" revision="android-3.14-ibox" remote="peyo"/>
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="ibox" remote="peyo"/>
   <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="master" remote="peyo"/>
   <project path="hardware/drm_hwcomposer" name="hardware_drm_hwcomposer" revision="master" remote="peyo"/>
+
+  <project path="kernel/common" name="kernel_common" revision="android-3.14-ibox" remote="peyo"/>
   <project path="device/x86/ibox" name="device_x86_ibox" revision="master" remote="peyo"/>
+
+  <project path="kernel/rpi" name="kernel_rpi" revision="rpi2" remote="peyo"/>
+  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="master" remote="peyo"/>
 
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/asus/fugu-kernel" />
