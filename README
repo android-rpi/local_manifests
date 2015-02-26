@@ -1,0 +1,20 @@
+# Download Android source
+ Refer to http://source.android.com/source/downloading.html
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.0.2_r1
+ $ cd .repo
+ $ git clone https://github.com/peyo-hd/local_manifests
+ $ repo sync
+ 
+# Build Kernel
+ $ cd kernel/common
+ $ ARCH=x86_64 scripts/kconfig/merge_config.sh arch/x86/configs/x86_64_defconfig android/configs/android-base.cfg android/configs/android-recommended.cfg
+ $ make bzImage
+ 
+# Build Android source
+ Continue build with http://source.android.com/source/building-running.html
+ $ source build/envsetup.sh
+ $ lunch ibox-eng
+ $ make
+
+# Install to Intel box
+ See https://github.com/peyo-hd/device_x86_ibox
