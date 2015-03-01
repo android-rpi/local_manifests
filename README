@@ -1,4 +1,4 @@
-# Download Android source
+# Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.0.2_r1
  $ cd .repo
@@ -10,4 +10,8 @@
 
 # Build for RaspberryPi 2
  See https://github.com/peyo-hd/device_brcm_rpi2
+
+# Build for Odroid C1
+ See https://github.com/peyo-hd/device_aml_odrc
+
 

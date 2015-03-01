@@ -6,6 +6,9 @@
   <remote name="github" fetch="http://github.com"/>
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
 
+  <project path="kernel/hardware/arm/gpu" name="codewalkerster/android_hardware_arm_gpu" revision="s805_4.4.2_master" remote="github"/>
+  <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
+
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="ibox" remote="peyo"/>
@@ -17,6 +20,12 @@
 
   <project path="kernel/rpi" name="kernel_rpi" revision="rpi2" remote="peyo"/>
   <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="master" remote="peyo"/>
+
+  <project path="kernel/odrc" name="kernel_odrc" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
+  <project path="device/aml/odrc" name="device_aml_odrc" revision="master" remote="peyo"/>
 
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/asus/fugu-kernel" />
