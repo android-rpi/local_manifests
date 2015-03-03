@@ -10,6 +10,8 @@
   <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
 
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" revision="nbox" remote="peyo" />
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="ibox" remote="peyo"/>
   <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="master" remote="peyo"/>
