@@ -12,6 +12,9 @@
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" revision="nbox" remote="peyo" />
+  <remove-project name="platform/external/tinyalsa" />
+  <project path="external/tinyalsa" name="external_tinyalsa" revision="nbox" remote="peyo" />
+
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="ibox" remote="peyo"/>
   <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="master" remote="peyo"/>
@@ -27,6 +30,7 @@
   <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic/audio" name="hardware_amlogic_audio" revision="master" remote="peyo"/>
   <project path="device/aml/odrc" name="device_aml_odrc" revision="master" remote="peyo"/>
 
   <remove-project name="device/asus/flo-kernel" />
