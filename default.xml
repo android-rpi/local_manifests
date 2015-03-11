@@ -7,6 +7,8 @@
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
 
   <project path="kernel/hardware/arm/gpu" name="codewalkerster/android_hardware_arm_gpu" revision="s805_4.4.2_master" remote="github"/>
+  <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192cu" revision="s805_4.4.2_master" remote="github"/>
+  <project path="kernel/hardware/wifi/realtek/drivers/8192du" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192du" revision="s805_4.4.2_master" remote="github"/>
   <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
 
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
@@ -32,6 +34,7 @@
   <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/audio" name="hardware_amlogic_audio" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/libstagefrighthw" name="hardware_amlogic_libstagefrighthw" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic/wifi" name="hardware_amlogic_wifi" revision="master" remote="peyo"/>
   <project path="device/aml/odrc" name="device_aml_odrc" revision="master" remote="peyo"/>
 
   <remove-project name="device/asus/flo-kernel" />
