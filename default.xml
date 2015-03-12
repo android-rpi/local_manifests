@@ -7,7 +7,7 @@
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
 
   <project path="kernel/hardware/arm/gpu" name="codewalkerster/android_hardware_arm_gpu" revision="s805_4.4.2_master" remote="github"/>
-  <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192cu" revision="s805_4.4.2_master" remote="github"/>
+  <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192cu" revision="3ef3ea2da3d8cecd67734ea520c770f1c32e38a9" remote="github"/>
   <project path="kernel/hardware/wifi/realtek/drivers/8192du" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192du" revision="s805_4.4.2_master" remote="github"/>
   <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
   <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
