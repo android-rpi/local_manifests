@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="fdo" fetch="http://anongit.freedesktop.org/git" />
-  <project path="external/drm" name="mesa/drm" revision="master" remote="fdo"/>
+  <project path="external/drm" name="mesa/drm" revision="e2acca4e40c87b00af75a5ffedafc26a099b657c" remote="fdo"/>
 
   <remote name="github" fetch="http://github.com"/>
   <project path="external/libpciaccess" name="android-ia/external_libpciaccess" revision="master" remote="github"/>
