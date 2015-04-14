@@ -23,7 +23,7 @@
   <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="master" remote="peyo"/>
   <project path="hardware/drm_hwcomposer" name="hardware_drm_hwcomposer" revision="master" remote="peyo"/>
 
-  <project path="kernel/common" name="kernel_common" revision="android-3.14-ibox" remote="peyo"/>
+  <project path="kernel/common" name="kernel_common" revision="android-3.18-ibox" remote="peyo"/>
   <project path="device/x86/ibox" name="device_x86_ibox" revision="master" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="rpi2" remote="peyo"/>
