@@ -1,8 +1,8 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.1.1_r8
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.1.1_r13
  $ cd .repo
- $ git clone https://github.com/peyo-hd/local_manifests
+ $ git clone https://github.com/peyo-hd/local_manifests -b lollipop
  $ repo sync
  
 # Build for Intel box

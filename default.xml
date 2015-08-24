@@ -29,7 +29,7 @@
   <project path="kernel/rpi" name="kernel_rpi" revision="rpi2" remote="peyo"/>
   <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="master" remote="peyo"/>
 
-  <project path="kernel/odrc" name="kernel_odrc" revision="master" remote="peyo"/>
+  <project path="kernel/odrc" name="kernel_odrc" revision="lollipop" remote="peyo"/>
   <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
