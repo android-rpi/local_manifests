@@ -34,9 +34,9 @@
   <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
   <project path="hardware/amlogic/audio" name="hardware_amlogic_audio" revision="master" remote="peyo"/>
-  <project path="hardware/amlogic/libstagefrighthw" name="hardware_amlogic_libstagefrighthw" revision="master" remote="peyo"/>
+  <project path="hardware/amlogic/libstagefrighthw" name="hardware_amlogic_libstagefrighthw" revision="lollipop" remote="peyo"/>
   <project path="hardware/amlogic/wifi" name="hardware_amlogic_wifi" revision="master" remote="peyo"/>
-  <project path="device/aml/odrc" name="device_aml_odrc" revision="master" remote="peyo"/>
+  <project path="device/aml/odrc" name="device_aml_odrc" revision="lollipop" remote="peyo"/>
 
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/asus/fugu-kernel" />
