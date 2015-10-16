@@ -13,8 +13,6 @@
   <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
 
   <remote name="peyo" fetch="http://github.com/peyo-hd"/>
-  <remove-project name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" revision="nbox" remote="peyo" />
   <remove-project name="platform/external/tinyalsa" />
   <project path="external/tinyalsa" name="external_tinyalsa" revision="nbox" remote="peyo" />
 
