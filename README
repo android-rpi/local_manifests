@@ -1,15 +1,12 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.1.1_r24
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.0_r1
  $ cd .repo
- $ git clone https://github.com/peyo-hd/local_manifests -b lollipop
+ $ git clone https://github.com/peyo-hd/local_manifests -b marshmallow
  $ repo sync
- 
-# Build for Intel box
- See https://github.com/peyo-hd/device_x86_ibox
 
 # Build for RaspberryPi 2
- See https://github.com/peyo-hd/device_brcm_rpi2
+ See https://github.com/peyo-hd/device_brcm_rpi2/tree/marshmallow
 
 # Build for Odroid C1
- See https://github.com/peyo-hd/device_aml_odrc
+ See https://github.com/peyo-hd/device_aml_odrc/tree/marshmallow
