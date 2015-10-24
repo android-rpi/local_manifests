@@ -14,8 +14,8 @@
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="vc4" remote="peyo"/>
 
-  <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="master" remote="peyo"/>
-  <project path="hardware/drm_hwcomposer" name="hardware_drm_hwcomposer" revision="master" remote="peyo"/>
+  <project path="hardware/drm_gralloc" name="hardware_drm_gralloc" revision="marshmallow" remote="peyo"/>
+  <project path="hardware/drm_hwcomposer" name="hardware_drm_hwcomposer" revision="marshmallow" remote="peyo"/>
   <project path="kernel/rpi" name="kernel_rpi" revision="rpi2m" remote="peyo"/>
   <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="marshmallow" remote="peyo"/>
 
