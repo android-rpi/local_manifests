@@ -1,6 +1,6 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.0_r1
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r3
  $ cd .repo
  $ git clone https://github.com/peyo-hd/local_manifests -b marshmallow
  $ repo sync
