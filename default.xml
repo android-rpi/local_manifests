@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github" fetch="http://github.com"/>
+  <remote name="github" fetch="https://github.com"/>
   <project path="kernel/hardware/arm/gpu" name="codewalkerster/android_hardware_arm_gpu" revision="s805_4.4.2_master" remote="github"/>
   <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192cu" revision="3ef3ea2da3d8cecd67734ea520c770f1c32e38a9" remote="github"/>
   <project path="kernel/hardware/wifi/realtek/drivers/8192du" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192du" revision="s805_4.4.2_master" remote="github"/>
   <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
   <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
 
-  <remote name="peyo" fetch="http://github.com/peyo-hd"/>
+  <remote name="peyo" fetch="https://github.com/peyo-hd"/>
   <remove-project name="platform/external/tinyalsa" />
   <project path="external/tinyalsa" name="external_tinyalsa" revision="marshmallow" remote="peyo" />
   <remove-project name="platform/external/mesa3d"/>
