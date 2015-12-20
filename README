@@ -6,7 +6,7 @@
  $ repo sync
 
 # Build for RaspberryPi 2
- See https://github.com/peyo-hd/device_brcm_rpi2/tree/marshmallow
+ See https://github.com/peyo-hd/device_brcm_rpi2
 
 # Build for Odroid C1
- See https://github.com/peyo-hd/device_aml_odrc/tree/marshmallow
+ See https://github.com/peyo-hd/device_aml_odrc
