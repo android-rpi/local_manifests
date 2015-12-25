@@ -19,6 +19,7 @@
   <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="vc4" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="vc4" remote="peyo"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="master" remote="peyo"/>
   <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="marshmallow" remote="peyo"/>
 
   <project path="kernel/odrc" name="kernel_odrc" revision="marshmallow" remote="peyo"/>
