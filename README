@@ -1,12 +1,12 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r13
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-n-preview-1
  $ cd .repo
- $ git clone https://github.com/peyo-hd/local_manifests -b marshmallow
+ $ git clone https://github.com/peyo-hd/local_manifests -b npv
  $ repo sync
 
-# Build for RaspberryPi 2
- See https://github.com/peyo-hd/device_brcm_rpi2
+# Build for Raspberry Pi3
+ See https://github.com/peyo-hd/device_brcm_rpi3
 
-# Build for Odroid C1
- See https://github.com/peyo-hd/device_aml_odrc
+# Build for Odroid C2
+ See https://github.com/peyo-hd/device_aml_odrc2

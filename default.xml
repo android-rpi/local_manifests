@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="github" fetch="https://github.com"/>
-  <project path="kernel/hardware/arm/gpu" name="codewalkerster/android_hardware_arm_gpu" revision="s805_4.4.2_master" remote="github"/>
-  <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192cu" revision="3ef3ea2da3d8cecd67734ea520c770f1c32e38a9" remote="github"/>
-  <project path="kernel/hardware/wifi/realtek/drivers/8192du" name="codewalkerster/android_hardware_wifi_realtek_drivers_8192du" revision="s805_4.4.2_master" remote="github"/>
-  <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
-  <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
-
   <remote name="peyo" fetch="https://github.com/peyo-hd"/>
-  <remove-project name="platform/external/tinyalsa" />
-  <project path="external/tinyalsa" name="external_tinyalsa" revision="marshmallow" remote="peyo" />
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="vc4" remote="peyo"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="vc4_master" remote="peyo"/>
   <remove-project name="platform/external/drm_gralloc"/>
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="vc4" remote="peyo"/>
   <remove-project name="platform/external/drm_hwcomposer"/>
-  <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="vc4" remote="peyo"/>
+  <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="vc4_master" remote="peyo"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="vc4" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="master" remote="peyo"/>
-  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="marshmallow" remote="peyo"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="rpi3" remote="peyo"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="npv" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="npv" remote="peyo"/>
 
-  <project path="kernel/odrc" name="kernel_odrc" revision="marshmallow" remote="peyo"/>
-  <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>
-  <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="master" remote="peyo"/>
-  <project path="hardware/amlogic/hwcomposer" name="hardware_amlogic_hwcomposer" revision="master" remote="peyo"/>
-  <project path="hardware/amlogic/audio" name="hardware_amlogic_audio" revision="master" remote="peyo"/>
-  <project path="hardware/amlogic/libstagefrighthw" name="hardware_amlogic_libstagefrighthw" revision="marshmallow" remote="peyo"/>
-  <project path="hardware/amlogic/wifi" name="hardware_amlogic_wifi" revision="master" remote="peyo"/>
-  <project path="device/aml/odrc" name="device_aml_odrc" revision="marshmallow" remote="peyo"/>
+  <project path="kernel/odrc" name="kernel_odrc" revision="odrc2" remote="peyo"/>
+  <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>  
+  <project path="hardware/amlogic/gralloc" name="hardware_amlogic_gralloc" revision="odrc2" remote="peyo"/>
+  <project path="device/aml/odrc2" name="device_aml_odrc2" revision="npv" remote="peyo"/>
+
+  <remote name="hk" fetch="https://github.com/codewalkerster"/>
+  <project path="kernel/hardware/arm/gpu" name="android_hardware_arm_gpu" revision="s905_5.1.1_master" remote="hk"/>
+  <project path="kernel/hardware/wifi/realtek/drivers/8192cu" name="android_hardware_wifi_realtek_drivers_8192cu" revision="s905_5.1.1_master" remote="hk"/>  
+  <project path="hardware/amlogic/mali" name="android_hardware_amlogic_mali" revision="s905_5.1.1_master" remote="hk"/>
+  <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" revision="s905_5.1.1_master" remote="hk"/>
 
   <remove-project name="device/asus/flo-kernel" />
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/moto/shamu-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/huawei/angler-kernel" />
 </manifest>
