@@ -1,6 +1,6 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r13
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r22
  $ cd .repo
  $ git clone https://github.com/peyo-hd/local_manifests -b marshmallow
  $ repo sync
@@ -10,3 +10,6 @@
 
 # Build for Odroid C1
  See https://github.com/peyo-hd/device_aml_odrc
+ 
+# Build for Odroid C2
+ See https://github.com/peyo-hd/device_aml_odrc2
