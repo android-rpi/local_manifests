@@ -10,7 +10,9 @@
 
   <project path="kernel/rpi" name="kernel_rpi" revision="rpi3" remote="peyo"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="npv" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="npv" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="npv" remote="peyo">
+    <copyfile dest="hardware/broadcom/libbt/include/vnd_rpi3.txt" src="bluetooth/vnd_rpi3.txt"/>
+  </project>
 
   <project path="kernel/odrc" name="kernel_odrc" revision="odrc2" remote="peyo"/>
   <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>  
