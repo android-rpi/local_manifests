@@ -2,8 +2,6 @@
 <manifest>
   <remote name="peyo" fetch="https://github.com/peyo-hd"/>
 
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="system_core" revision="npv" remote="peyo" />
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="vc4_npv" remote="peyo"/>
   <remove-project name="platform/external/drm_gralloc"/>
@@ -11,9 +9,9 @@
   <remove-project name="platform/external/drm_hwcomposer"/>
   <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="vc4_master" remote="peyo"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="rpi3" remote="peyo"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="peyo"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="npv" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="npv" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="peyo"/>
 
   <project path="kernel/odrc" name="kernel_odrc" revision="odrc2" remote="peyo"/>
   <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>  
@@ -26,11 +24,11 @@
   <project path="hardware/amlogic/mali" name="android_hardware_amlogic_mali" revision="s905_5.1.1_master" remote="hk"/>
   <project path="hardware/amlogic/hwcomposer" name="android_hardware_amlogic_hwcomposer" revision="s905_5.1.1_master" remote="hk"/>
 
-  <remove-project name="device/asus/flo-kernel" />
-  <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/lge/hammerhead-kernel" />
-  <remove-project name="device/lge/bullhead-kernel" />
-  <remove-project name="device/moto/shamu-kernel" />
+  <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/moto/shamu-kernel" />
 </manifest>
