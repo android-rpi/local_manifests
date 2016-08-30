@@ -6,7 +6,7 @@
  $ repo sync
 
 # Build for Raspberry Pi3
- See https://github.com/peyo-hd/device_brcm_rpi3
+ See https://github.com/peyo-hd/device_brcm_rpi3/tree/npv
 
 # Build for Odroid C2
- See https://github.com/peyo-hd/device_aml_odrc2
+ See https://github.com/peyo-hd/device_aml_odrc2/tree/npv
