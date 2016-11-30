@@ -3,6 +3,8 @@
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.0_r7
  $ cd .repo
  $ git clone https://github.com/peyo-hd/local_manifests -b nougat
+# Should go in to local_manifests to do the repo sync?
+ $ cd local_manifests
  $ repo sync
 
 # Build for Raspberry Pi3
