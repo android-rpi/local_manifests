@@ -1,6 +1,6 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.0_r7
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.1_r4
  $ cd .repo
  $ git clone https://github.com/peyo-hd/local_manifests -b nougat
  $ repo sync
