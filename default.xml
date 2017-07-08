@@ -12,6 +12,7 @@
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="arpi"/>
 
   <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead-kernel" />
