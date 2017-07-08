@@ -1,6 +1,6 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-o-preview-2
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-o-preview-3
  $ git clone https://github.com/peyo-hd/local_manifests/tree/opv .repo/local_manifests
  $ repo sync
 

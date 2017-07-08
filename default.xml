@@ -6,12 +6,27 @@
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="opv" remote="peyo"/>
   <remove-project name="platform/external/drm_gralloc"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="nougat" remote="arpi"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="opv" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="opv" remote="peyo"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="opv" remote="peyo"/>
 
+  <remove-project name="platform/system/extra"/>
+  <project path="system/extra" name="platform/system/extra" revision="master"/>
+  <remove-project name="platform/external/libexif" />
+  <project path="external/libexif" name="platform/external/libexif" revision="master"/>
+  <remove-project name="platform/external/cblas" />
+  <project path="external/cblas" name="platform/external/cblas" revision="master"/>
+  <remove-project name="platform/external/eigen" />
+  <project path="external/eigen" name="platform/external/eigen" revision="master"/>
+  <remove-project name="platform/external/fio" />
+  <project path="external/fio" name="platform/external/fio" revision="master"/>
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="master"/>
+  <remove-project name="platform/external/f2fs-tools/" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" revision="master"/>
+  
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
