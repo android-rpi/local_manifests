@@ -9,7 +9,7 @@
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="opv" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="opv" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="opv" remote="peyo"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="opv" remote="peyo"/>
 
   <remove-project name="platform/system/extra"/>
