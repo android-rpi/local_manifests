@@ -12,8 +12,8 @@
   <project path="hardware/rpi" name="hardware_rpi" revision="opv" remote="peyo"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="opv" remote="peyo"/>
 
-  <remove-project name="platform/system/extra"/>
-  <project path="system/extra" name="platform/system/extra" revision="master"/>
+  <remove-project name="platform/system/extras"/>
+  <project path="system/extras" name="platform/system/extras" revision="master"/>
   <remove-project name="platform/external/libexif" />
   <project path="external/libexif" name="platform/external/libexif" revision="master"/>
   <remove-project name="platform/external/cblas" />
@@ -24,7 +24,7 @@
   <project path="external/fio" name="platform/external/fio" revision="master"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="master"/>
-  <remove-project name="platform/external/f2fs-tools/" />
+  <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" revision="master"/>
   
   <remove-project name="device/asus/fugu-kernel" />
