@@ -12,6 +12,8 @@
   <project path="hardware/rpi" name="hardware_rpi" revision="opv" remote="peyo"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="opv" remote="peyo"/>
 
+  <project path="system/timezone" name="platform/system/timezone" revision="master"/>
+
   <remove-project name="platform/system/extras"/>
   <project path="system/extras" name="platform/system/extras" revision="master"/>
   <remove-project name="platform/external/libexif" />
@@ -26,6 +28,8 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="master"/>
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" revision="master"/>
+  <remove-project name="platform/external/selinux" />
+  <project path="external/selinux" name="platform/external/selinux" revision="master" />
   
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon-kernel" />

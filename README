@@ -1,8 +1,11 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-o-preview-3
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-o-preview-4
  $ git clone https://github.com/peyo-hd/local_manifests/tree/opv .repo/local_manifests
  $ repo sync
+
+# Apply patch
+  https://github.com/peyo-hd/local_manifests/wiki/Patch-android-o-preview-4
 
 # Build for Raspberry Pi3
  https://github.com/peyo-hd/device_brcm_rpi3/tree/opv
