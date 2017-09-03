@@ -3,20 +3,20 @@
   <remote name="arpi" fetch="https://github.com/android-rpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="nougat" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="oreo" remote="arpi"/>
   <remove-project name="platform/external/drm_gralloc"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="nougat" remote="arpi"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="oreo" remote="arpi"/>
+  <remove-project name="platform/external/libdrm"/>
+  <project path="external/libdrm" name="platform/external/libdrm" revision="master"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="nougat" remote="arpi"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="nougat" remote="arpi"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat" remote="arpi"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="oreo" remote="arpi"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="oreo" remote="arpi"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="oreo" remote="arpi"/>
 
+  <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
-  <remove-project name="device/htc/flounder-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/moto/shamu-kernel" />
 </manifest>
