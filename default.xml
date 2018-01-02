@@ -4,10 +4,7 @@
 
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="oreo" remote="arpi"/>
-  <remove-project name="platform/external/drm_gralloc"/>
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="oreo" remote="arpi"/>
-  <remove-project name="platform/external/libdrm"/>
-  <project path="external/libdrm" name="platform/external/libdrm" revision="master"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="oreo" remote="arpi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="oreo" remote="arpi"/>
@@ -16,6 +13,7 @@
   <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/huawei/angler-kernel" />
   <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/hikey-kernel" />
