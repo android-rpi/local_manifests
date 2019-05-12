@@ -1,11 +1,11 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b oreo
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r37
+ $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b pie
  $ repo sync
 
 # Build for Raspberry Pi3
- https://github.com/android-rpi/device_brcm_rpi3/tree/oreo
+ https://github.com/android-rpi/device_brcm_rpi3/tree/pie
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
