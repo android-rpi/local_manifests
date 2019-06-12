@@ -15,6 +15,7 @@
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="pie" remote="arpi"/>
 
+  <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
