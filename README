@@ -1,12 +1,13 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r45
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b pie
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r2
+ $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b android-10
  $ repo sync
 
 # Build for Raspberry Pi3
- https://github.com/android-rpi/device_brcm_rpi3/tree/pie
+ https://github.com/android-rpi/device_brcm_rpi3/tree/android-10
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
+The build is tested on Ubuntu 18.04 LTS.
 
 Graphics HAL of this build : https://github.com/anholt/mesa/wiki/VC4
