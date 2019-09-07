@@ -9,7 +9,7 @@
   <remove-project name="platform/external/libdrm"/>
   <project path="external/libdrm" name="platform/external/libdrm" revision="pie-cuttlefish-testing"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.y" remote="arpi"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.66" remote="arpi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="arpi"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="pie" remote="arpi"/>
 
