@@ -12,11 +12,13 @@
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
 
+  <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/crosshatch-kernel" />  
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/ti/beagle-x15-kernel" />  
+  <remove-project name="device/ti/beagle-x15-kernel" />
 </manifest>
