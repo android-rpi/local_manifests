@@ -10,7 +10,7 @@
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-10" remote="arpi"/>
   <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-10" remote="arpi"/>
 
-  <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
+  <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-10" remote="arpi"/>
 
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/bonito-kernel" />
