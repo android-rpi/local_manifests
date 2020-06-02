@@ -1,7 +1,7 @@
 # Download Android source with local_manifests
  Refer to http://source.android.com/source/downloading.html
 
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r35
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r39
  $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi-10
  $ repo sync
 
@@ -9,5 +9,3 @@
  https://github.com/android-rpi/device_arpi_rpi4
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
-
-Graphics HAL of this build : https://gitlab.freedesktop.org/mesa/mesa
