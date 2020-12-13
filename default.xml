@@ -8,8 +8,8 @@
   <project path="frameworks/native" name="frameworks_native" revision="arpi-11" remote="arpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-20.2" remote="arpi"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d-20.2" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-20.3" remote="arpi"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d-20.3" remote="arpi"/>
 
   <project path="kernel/arpi" name="kernel_arpi" revision="arpi-5.4.y" remote="arpi"/>
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-11" remote="arpi"/>
