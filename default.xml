@@ -3,17 +3,17 @@
   <remote name="arpi" fetch="https://github.com/android-rpi"/>
 
   <remove-project name="platform/frameworks/av"/>
-  <project path="frameworks/av" name="frameworks_av" revision="arpi-11" remote="arpi"/>
+  <project path="frameworks_av" name="frameworks_av" revision="arpi-11" remote="arpi"/>
   <remove-project name="platform/frameworks/native"/>
-  <project path="frameworks/native" name="frameworks_native" revision="arpi-11" remote="arpi"/>
+  <project path="frameworks_native" name="frameworks_native" revision="arpi-11" remote="arpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-20.3" remote="arpi"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d-20.3" remote="arpi"/>
+  <project path="external_mesa3d" name="external_mesa3d" revision="v3d-20.3" remote="arpi"/>
+  <project path="external_drm_gralloc" name="external_drm_gralloc" revision="v3d-20.3" remote="arpi"/>
 
-  <project path="kernel/arpi" name="kernel_arpi" revision="arpi-5.4.y" remote="arpi"/>
-  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-11" remote="arpi"/>
-  <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-11" remote="arpi"/>
+  <project path="kernel_rpi" name="kernel_arpi" revision="arpi-5.4.y" remote="arpi"/>
+  <project path="hardware_rpi" name="hardware_arpi" revision="arpi-11" remote="arpi"/>
+  <project path="device_arpi_rpi4" name="device_arpi_rpi4" revision="arpi-11" remote="arpi"/>
 
-  <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-11" remote="arpi"/>
+  <project path="RpLauncher" name="RpLauncher" revision="arpi-11" remote="arpi"/>
 </manifest>
