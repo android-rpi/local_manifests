@@ -11,7 +11,6 @@
   <project path="external/mesa3d" name="external_mesa3d" revision="v3d-20.3" remote="arpi"/>
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d-20.3" remote="arpi"/>
 
-  <project path="kernel/arpi" name="kernel_arpi" revision="arpi-5.4.y" remote="arpi"/>
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-11" remote="arpi"/>
   <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-11" remote="arpi"/>
 
