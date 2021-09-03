@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="arpi" fetch="https://github.com/android-rpi"/>
+  <remote name="arpi" fetch="https://github.com/Sulaiman2050"/>
 
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" revision="arpi-12" remote="arpi"/>
