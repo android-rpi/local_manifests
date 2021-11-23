@@ -14,7 +14,6 @@
 
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
