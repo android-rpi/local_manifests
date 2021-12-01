@@ -4,8 +4,6 @@
 
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" revision="arpi-12" remote="arpi"/>
-  <remove-project name="platform/packages/modules/NeuralNetworks"/>
-  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" revision="390f55745425a63a23c395c64a5608cdef339686"/>
 
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="v3d-21.1" remote="arpi"/>
