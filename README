@@ -1,11 +1,11 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.1.2_r19
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-5.1.1_r14
+ $ git clone https://github.com/Sulaiman2050/local_manifests .repo/local_manifests -b lollipop
  $ repo sync
 
 # Build for Raspberry Pi3
- https://github.com/android-rpi/device_brcm_rpi3
+ https://github.com/Sulaiman2050/device_brcm_rpi3
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
