@@ -2,7 +2,7 @@
  Refer to http://source.android.com/source/downloading.html
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-s-beta-2
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi-12
+ $ git clone https://github.com/Sulaiman2050local_manifests .repo/local_manifests -b arpi-12
  $ repo sync
 
 # Build for Raspberry Pi 4
