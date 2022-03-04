@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="arpi" fetch="https://github.com/android-rpi"/>  
+  <remote name="arpi" fetch="https://github.com/Sulaiman2050"/>  
   
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="rpi3-19.1" remote="arpi"/>
