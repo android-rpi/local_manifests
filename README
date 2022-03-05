@@ -1,8 +1,8 @@
 # Download Android source with local_manifests
  Refer to http://source.android.com/source/downloading.html
 
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-s-beta-2
- $ git clone https://github.com/Sulaiman2050local_manifests .repo/local_manifests -b arpi-12
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r13
+ $ git clone https://github.com/Sulaiman2050/local_manifests .repo/local_manifests -b arpi-12
  $ repo sync
 
 # Build for Raspberry Pi 4
