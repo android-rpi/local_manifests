@@ -5,7 +5,7 @@
  $ git clone https://github.com/Sulaiman2050/local_manifests .repo/local_manifests -b arpi-12
  $ repo sync
 
-# Build for Raspberry Pi 4
- https://github.com/Sulaiman2050/device_arpi_rpi4
+# Build for Raspberry Pi 3
+ https://github.com/Sulaiman2050/device_brcm_rpi3
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
