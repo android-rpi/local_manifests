@@ -6,7 +6,10 @@
   <project path="frameworks/av" name="frameworks_av" revision="arpi-12" remote="arpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-21.3" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-22.0" remote="arpi"/>
+
+  <remove-project name="platform/external/libdrm"/>
+  <project path="external/libdrm" name="platform/external/libdrm" revision="android-s-v2-beta-3"/>
 
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
   <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-12" remote="arpi"/>
