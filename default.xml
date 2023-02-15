@@ -24,8 +24,12 @@
   <remove-project name="platform/hardware/interfaces"/>
   <project path="hardware/interfaces" name="hardware_interfaces" revision="arpi-13" remote="arpi"/>
 
-  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-13" remote="arpi"/>
-  <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-13" remote="arpi"/>
+  <project path="hardware/arpi" name="hardware_arpi" revision="arpi-13-camic" remote="arpi"/>
+  <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-13-camic" remote="arpi"/>
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-12" remote="arpi"/>
+
+  <project path="external/libcamera" name="external_libcamera" revision="arpi-12" remote="arpi"/>
+  <project path="external/boost" name="external_boost" revision="boost-next" remote="arpi"/>
+  <project path="external/libyuv_chromium" name="external_libyuv_chromium" revision="libyuv_chromium-next" remote="arpi"/>
 </manifest>
