@@ -4,9 +4,10 @@
 
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" revision="arpi-13" remote="arpi"/>
-
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="v3d-22.2" remote="arpi"/>
+  <remove-project name="platform/external/v4l2_codec2"/>
+  <project path="external/v4l2_codec2" name="external_v4l2_codec2" revision="arpi-13" remote="arpi"/>
 
   <remove-project name="platform/build"/>
   <project path="build/make" name="build_make" revision="arpi-13" remote="arpi">
