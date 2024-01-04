@@ -2,7 +2,7 @@
  Refer to http://source.android.com/source/downloading.html
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r17
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi-14
+ $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi14-pi4
  $ repo sync
 
 # Build for Raspberry Pi 4
