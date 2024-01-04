@@ -3,9 +3,7 @@
   <remote name="arpi" fetch="https://github.com/android-rpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-23.2" remote="arpi"/>
-  <remove-project name="platform/external/v4l2_codec2"/>
-  <project path="external/v4l2_codec2" name="external_v4l2_codec2" revision="arpi-14" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-23.3" remote="arpi"/>
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" revision="arpi-14" remote="arpi"/>
 
@@ -15,7 +13,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" revision="arpi-14" remote="arpi"/>
 
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-14" remote="arpi"/>
-  <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-14" remote="arpi"/>
+  <project path="device/arpi/rpi5" name="device_arpi_rpi5" revision="arpi-14" remote="arpi"/>
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-14" remote="arpi"/>
 </manifest>
