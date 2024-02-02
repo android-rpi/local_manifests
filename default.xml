@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="arpi" fetch="https://github.com/android-rpi"/>
+  <remote name="arpi" fetch="https://git@github.com/android-rpi"/>
 
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-23.3" remote="arpi"/>
-  <remove-project name="platform/frameworks/av"/>
-  <project path="frameworks/av" name="frameworks_av" revision="arpi-14" remote="arpi"/>
-
-  <remove-project name="platform/hardware/broadcom/libbt"/>
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" revision="arpi-14" remote="arpi"/>
-  <remove-project name="platform/hardware/interfaces"/>
-  <project path="hardware/interfaces" name="hardware_interfaces" revision="arpi-14" remote="arpi"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d-24.0" remote="arpi"/>
 
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-14" remote="arpi"/>
-  <project path="device/arpi/rpi5" name="device_arpi_rpi5" revision="arpi-14" remote="arpi"/>
+  <project path="device/arpi/rpi5" name="device_arpi_rpi5" revision="arpi-main" remote="arpi"/>
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="arpi-14" remote="arpi"/>
 </manifest>
